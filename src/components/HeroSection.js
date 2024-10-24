@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Grid, Typography, Button, Box, Divider } from '@mui/material';
+import { Typography, Button, Box,} from '@mui/material';
 import { styled } from '@mui/system';
 import heroImage from '../images/img1.jpg'; // Adicione a imagem apropriada
 

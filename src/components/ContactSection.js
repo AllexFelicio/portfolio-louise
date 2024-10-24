@@ -1,7 +1,7 @@
 // src/components/ContactSection.js
 import React from 'react';
 import { Box, Typography, IconButton } from '@mui/material';
-import { Facebook, Instagram, WhatsApp } from '@mui/icons-material';
+import { Instagram, WhatsApp } from '@mui/icons-material';
 
 const ContactSection = () => {
   return (

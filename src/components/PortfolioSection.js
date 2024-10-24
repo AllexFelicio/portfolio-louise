@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Card, CardContent, CardMedia, Typography, Button, Box } from '@mui/material';
 import Carousel from 'react-material-ui-carousel';
 import { styled } from '@mui/system';
+import useMediaQuery from '@mui/material/useMediaQuery';
 
 const PortfolioBackground = styled(Box)(() => ({
   backgroundColor: '#222', // Mantém a cor de fundo #222
@@ -17,6 +18,8 @@ const projects = [
 ];
 
 const PortfolioSection = () => {
+  const isSmallScreen = useMediaQuery((theme) => theme.breakpoints.down('sm')); // Detecta tela pequena
+
   return (
     <PortfolioBackground id="portfolio">
       <Container>
@@ -37,10 +40,10 @@ const PortfolioSection = () => {
           }}
           autoPlay={false} // Desativa autoplay para melhor controle
         >
-          {/* Cria um array para o carrossel que mostra 3 itens por vez */}
-          {Array.from({ length: Math.ceil(projects.length / 3) }).map((_, index) => (
+          {/* Cria um array para o carrossel que mostra 1 ou 3 itens por vez, dependendo do tamanho da tela */}
+          {Array.from({ length: Math.ceil(projects.length / (isSmallScreen ? 1 : 3)) }).map((_, index) => (
             <Box key={index} display="flex" justifyContent="space-between">
-              {projects.slice(index * 3, index * 3 + 3).map((project, i) => (
+              {projects.slice(index * (isSmallScreen ? 1 : 3), index * (isSmallScreen ? 1 : 3) + (isSmallScreen ? 1 : 3)).map((project, i) => (
                 <Card key={i} sx={{ backgroundColor: '#111', margin: '10px', display: 'flex', flexDirection: 'column', flex: 1 }}>
                   <CardMedia
                     component="img"

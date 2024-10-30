@@ -64,12 +64,9 @@ const HeroSection = () => {
         <Typography variant="h5" gutterBottom>
           Engenheira Civil
         </Typography>
-        <Typography variant="h7" gutterBottom align="justify">
-           Formada pela Faculdade de Engenharia de Sorocaba - FACENS, atualmente estou cursando uma pós-graduação em Patologia. 
-           Tenho experiência no gerenciamento e execução de projetos de construção de casas de alto padrão, 
-           o que me permite oferecer soluções técnicas de qualidade e adequadas às necessidades dos meus clientes. 
-           Com um olhar atento aos detalhes e uma abordagem focada na excelência, 
-           busco garantir que cada serviço reflita não apenas a estética, mas também a segurança e a durabilidade.
+        <Typography variant="body1" align="justify">
+          Sou uma engenheira civil profissional com mais de 6 anos de experiência em projetar e gerenciar projetos de construção.
+          Minha paixão está em fornecer soluções de alta qualidade que atendam às necessidades dos meus clientes.
         </Typography>
         <Box sx={{ display: 'flex', gap: '20px', marginTop: '20px' }}>
           <Button variant="contained" sx={{ backgroundColor: '#9B7424', color: 'white','&:hover': {backgroundColor: '#7B5C1C',},  }}>

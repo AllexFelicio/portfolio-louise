@@ -33,6 +33,9 @@ const ContactSection = () => {
       <Typography variant="body2" sx={{ marginTop: '15px', marginBottom: '5px' }}>
         &copy; {new Date().getFullYear()} Louise de Paula. Todos os direitos reservados.
       </Typography>
+      <Typography variant="body2" sx={{ marginTop: '5px', marginBottom: '0' }}>
+        Criado por Alex Felício
+      </Typography>
     </Box>
   );
 };

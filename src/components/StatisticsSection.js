@@ -9,8 +9,8 @@ const StatisticsBackground = styled(Box)(() => ({
 }));
 
 const stats = [
-  { number: '50+', label: 'Clientes' },
-  { number: '68', label: 'Projetos' },
+  { number: '20+', label: 'Clientes' },
+  { number: '10', label: 'Projetos' },
   { number: '6', label: 'Anos de Experiencia' },
 ];
 

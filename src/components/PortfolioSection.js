@@ -4,17 +4,19 @@ import Carousel from 'react-material-ui-carousel';
 import { styled } from '@mui/system';
 import { Link } from 'react-router-dom'; // Adicione esta linha
 import useMediaQuery from '@mui/material/useMediaQuery';
-
+//#1A2530
 const PortfolioBackground = styled(Box)(() => ({
-  backgroundColor: '#1A2530',
+  backgroundColor: '#141C24',
   padding: '50px 0',
   color: 'white',
 }));
 
 const projects = [
-  { id: 'projectA', title: 'Project A', image: 'https://grantec.com.br/wp-content/uploads/2021/10/casa-alto-padrao-01.jpg', description: 'Building Design' },
-  { id: 'projectB', title: 'Project B', image: 'https://www.bidese.com.br/storage/app/uploads/public/61e/96d/76b/61e96d76ba8fe211400673.png', description: 'Bridge Construction' },
-  { id: 'projectC', title: 'Project C', image: 'https://bidese.com.br/storage/app/media/uploaded-files/gap01.png', description: 'Stadium Renovation' },
+  { id: 'projectA', title: 'Barn House', image: 'https://fazendaboavista.jhsf.com.br/public/uploads/811e22553bbbd8121b1d636168d237e3.webp', description: 'Fazenda Boa Vista' },
+  { id: 'projectB', title: 'Garden House', image: 'https://fazendaboavista.jhsf.com.br/public/uploads/59466b1205884e8753fdf52968798449.webp', description: 'Fazenda Boa Vista' },
+  { id: 'projectC', title: 'Residencia', image: 'https://www.bidese.com.br/storage/app/uploads/public/61e/96d/76b/61e96d76ba8fe211400673.png', description: 'Fazenda Da Grama' },
+  { id: 'projectD', title: 'Victor e Bridla', image: 'https://www.bidese.com.br/storage/app/uploads/public/61e/96d/76b/61e96d76ba8fe211400673.png', description: 'Aldeia Da Serra' },
+  { id: 'projectE', title: 'Reforma Jorge Y.', image: 'https://bidese.com.br/storage/app/media/uploaded-files/gap01.png', description: 'Fazenda Boa Vista' },
 ];
 
 const PortfolioSection = () => {
@@ -44,7 +46,7 @@ const PortfolioSection = () => {
             <Box key={index} display="flex" justifyContent="space-between">
               {projects.slice(index * (isSmallScreen ? 1 : 3), index * (isSmallScreen ? 1 : 3) + (isSmallScreen ? 1 : 3)).map((project, i) => (
                 <Link key={i} to={`/projects/${project.id}`} style={{ textDecoration: 'none', color: 'inherit' }}> {/* Link para a página de detalhes */}
-                  <Card sx={{ backgroundColor: '#141C24', margin: '10px', display: 'flex', flexDirection: 'column', flex: 1 }}>
+                  <Card sx={{ backgroundColor: '#1A2530', margin: '10px', display: 'flex', flexDirection: 'column', flex: 1 }}>
                     <CardMedia
                       component="img"
                       height="200"

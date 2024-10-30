@@ -47,7 +47,7 @@ const Header = () => {
           edge="end"
           color="inherit"
           onClick={toggleDrawer(true)}
-          sx={{ display: { xs: 'block', md: 'none' }, color: '#FF5722' }}
+          sx={{ display: { xs: 'block', md: 'none' }, color: '#9B7424' }}
         >
           <MenuIcon />
         </IconButton>
@@ -58,7 +58,7 @@ const Header = () => {
               {item.text}
             </Button>
           ))}
-          <Button
+          {/* <Button
             variant="contained"
             sx={{
               backgroundColor: '#9B7424',
@@ -70,7 +70,7 @@ const Header = () => {
             onClick={() => scrollToSection('contact')}
           >
             Contrate-me!
-          </Button>
+          </Button> */}
         </Box>
       </Toolbar>
 
@@ -100,7 +100,7 @@ const Header = () => {
                 justifyContent: 'flex-start',
                 color: 'white',
                 '&:hover': {
-                  backgroundColor: '#FF5722',
+                  backgroundColor: '#9B7424',
                 },
                 padding: '10px 20px',
               }}
@@ -109,7 +109,7 @@ const Header = () => {
               {item.text}
             </Button>
           ))}
-          <Button
+          {/* <Button
             variant="contained"
             sx={{
               width: '100%',
@@ -125,7 +125,7 @@ const Header = () => {
             onClick={() => scrollToSection('contact')}
           >
             Contrate-me!
-          </Button>
+          </Button> */}
         </Box>
       </Drawer>
     </AppBar>

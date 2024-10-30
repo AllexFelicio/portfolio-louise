@@ -6,7 +6,7 @@ const AboutMeSection = () => {
   return (
     <Box
   sx={{
-    backgroundColor: '#1A2530',
+    backgroundColor: '#141C24',
     color: 'white',
     padding: '50px 20px',
     textAlign: 'center',

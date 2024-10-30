@@ -9,6 +9,7 @@ import AboutMeSection from './components/AboutMeSection';
 import ServicesSection from './components/ServicesSection';
 import ProjectDetail from './components/ProjectDetail'; // Importe a página de detalhes do projeto
 import GlobalTheme from './components/GlobalStyles'; 
+import WhatsAppButton from './components/WhatsAppButton';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           </Routes>
           <ServicesSection id="services" />
           <ContactSection id="contact" />
+          <WhatsAppButton />
         </div>
       </Router>
     </GlobalTheme>

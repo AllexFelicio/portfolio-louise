@@ -6,8 +6,8 @@ import Carousel from 'react-material-ui-carousel';
 
 const projectDetails = {
   projectA: {
-    title: 'Project A',
-    description: 'Detailed description of Project A.',
+    title: 'Barn House',
+    description: 'Detalhes da Barn House',
     images: [
       'https://grantec.com.br/wp-content/uploads/2021/10/casa-alto-padrao-01.jpg',
       'https://grantec.com.br/wp-content/uploads/2021/10/casa-alto-padrao-01.jpg',
@@ -15,21 +15,21 @@ const projectDetails = {
     ],
   },
   projectB: {
-    title: 'Project B',
+    title: 'Victor e Bridla',
     description: 'Detailed description of Project B.',
     images: [
       'https://www.bidese.com.br/storage/app/uploads/public/61e/96d/76b/61e96d76ba8fe211400673.png',
-      'https://example.com/image2.jpg',
-      'https://example.com/image3.jpg',
+      'https://www.bidese.com.br/storage/app/uploads/public/61e/96d/76b/61e96d76ba8fe211400673.png',
+      'https://www.bidese.com.br/storage/app/uploads/public/61e/96d/76b/61e96d76ba8fe211400673.png',
     ],
   },
   projectC: {
-    title: 'Project C',
+    title: 'Jorge Yamanaski',
     description: 'Detailed description of Project C.',
     images: [
       'https://bidese.com.br/storage/app/media/uploaded-files/gap01.png',
-      'https://example.com/image2.jpg',
-      'https://example.com/image3.jpg',
+      'https://bidese.com.br/storage/app/media/uploaded-files/gap01.png',
+      'https://bidese.com.br/storage/app/media/uploaded-files/gap01.png',
     ],
   },
 };

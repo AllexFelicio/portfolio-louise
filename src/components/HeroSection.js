@@ -4,7 +4,7 @@ import { styled } from '@mui/system';
 import heroImage from '../images/img1.jpg'; // Adicione a imagem apropriada
 
 const HeroBackground = styled(Box)(({ theme }) => ({
-  background: 'linear-gradient(to top, rgba(20, 28, 36, 0.9), rgba(155, 116, 36, 0.1))', // Degradê sutil 
+  background: 'linear-gradient(to top, rgba(20, 28, 36, 0.9) 10%, rgba(155, 116, 36, 0.1) 100%)', // Degradê ocupa menos espaço
   paddingTop: '64px',
   height: '100vh',
   display: 'flex',
@@ -64,13 +64,17 @@ const HeroSection = () => {
         <Typography variant="h5" gutterBottom>
           Engenheira Civil
         </Typography>
+        <Typography variant="h7" gutterBottom align="justify">
+           Formada pela Faculdade de Engenharia de Sorocaba - FACENS, atualmente estou cursando uma pós-graduação em Patologia. 
+           Tenho experiência no gerenciamento e execução de projetos de construção de casas de alto padrão, 
+           o que me permite oferecer soluções técnicas de qualidade e adequadas às necessidades dos meus clientes. 
+           Com um olhar atento aos detalhes e uma abordagem focada na excelência, 
+           busco garantir que cada serviço reflita não apenas a estética, mas também a segurança e a durabilidade.
+        </Typography>
         <Box sx={{ display: 'flex', gap: '20px', marginTop: '20px' }}>
-          <Button variant="contained" sx={{ backgroundColor: '#9B7424', color: 'white' }}>
+          <Button variant="contained" sx={{ backgroundColor: '#9B7424', color: 'white','&:hover': {backgroundColor: '#7B5C1C',},  }}>
             Baixar CV
           </Button>
-          {/* <Button variant="outlined" sx={{ color: '#FF5722', borderColor: '#FF5722' }}>
-            Meus Trabalhos
-          </Button> */}
         </Box>
       </HeroContent>
     </HeroBackground>

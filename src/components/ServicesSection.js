@@ -11,27 +11,27 @@ import useMediaQuery from '@mui/material/useMediaQuery';
 const services = [
   {
     title: 'Gerenciamento de Obras',
-    description: 'Expertise in building design and construction.',
+    description: 'O gerenciamento eficaz assegura a qualidade e a segurança das obras, além de otimizar recursos e minimizar riscos.',
     icon: <EngineeringIcon sx={{ fontSize: 60, color: '#9B7424' }} />,
   },
   {
     title: 'Inspeção Predial',
-    description: 'Efficient management of construction projects.',
+    description: 'O processo inclui a identificação de possíveis problemas, como fissuras, infiltrações e deterioração, assegurando que a edificação esteja em conformidade com as normas e padrões de segurança.',
     icon: <BuildIcon sx={{ fontSize: 60, color: '#9B7424' }} />,
   },
   {
     title: 'Laudos',
-    description: 'Analysis and design of structural components.',
+    description: 'laudos são utilizados para fundamentar decisões sobre manutenção, reformas ou intervenções em edificações, além de serem essenciais para processos legais e contratuais.',
     icon: <AssessmentIcon sx={{ fontSize: 60, color: '#9B7424' }} />,
   },
   {
     title: 'Vistorias',
-    description: 'Providing expert advice for your projects.',
+    description: 'As vistorias garantem que o trabalho executado atenda às especificações e à legislação vigente, além de fornecer uma avaliação objetiva do estado atual da construção.',
     icon: <SearchIcon sx={{ fontSize: 60, color: '#9B7424' }} />,
   },
   {
     title: 'Checklist',
-    description: 'Upgrading existing structures.',
+    description: 'O checklist ajuda a identificar itens pendentes ou não conformidades, promovendo a organização e a eficiência na execução das obras e manutenções.',
     icon: <CheckCircleIcon sx={{ fontSize: 60, color: '#9B7424' }} />,
   },
 ];
@@ -40,7 +40,7 @@ const ServicesSection = () => {
   const isSmallScreen = useMediaQuery((theme) => theme.breakpoints.down('sm')); // Detecta tela pequena
 
   return (
-    <Box sx={{ backgroundColor: '#1A2530', color: 'white', padding: '50px 20px' }} id="services">
+    <Box sx={{ backgroundColor: '#141C24', color: 'white', padding: '50px 20px' }} id="services">
       <Typography variant="h4" align="center" gutterBottom>
         Serviços
       </Typography>
@@ -76,7 +76,7 @@ const ServicesSection = () => {
                   flexDirection: 'column', 
                   alignItems: 'center', 
                   textAlign: 'center',
-                  backgroundColor: '#141C24', // Cor de fundo dos cards
+                  backgroundColor: '#1A2530', // Cor de fundo dos cards
                   color: 'white', // Cor do texto
                 }}
               >
@@ -85,13 +85,21 @@ const ServicesSection = () => {
                 </Box>
                 <CardContent sx={{ flexGrow: 1 }}>
                   <Typography variant="h6" sx={{ color: 'white' }}>{service.title}</Typography> {/* Texto em branco */}
-                  <Typography variant="body2" sx={{ color: 'white' }}>{service.description}</Typography> {/* Texto em branco */}
+                  <Typography variant="body2" sx={{ color: 'white' }} >{service.description}</Typography> {/* Texto em branco */}
                 </CardContent>
               </Card>
             ))}
           </Box>
         ))}
       </Carousel>
+      <Box
+    sx={{
+      height: '2px',
+      background: 'linear-gradient(to right, #1A2530, #9B7424)',
+      margin: '20px auto 0',
+      width: '68%',
+    }}
+  />
     </Box>
   );
 };

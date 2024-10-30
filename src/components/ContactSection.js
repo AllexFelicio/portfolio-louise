@@ -5,7 +5,7 @@ import { Instagram, WhatsApp } from '@mui/icons-material';
 
 const ContactSection = () => {
   return (
-    <Box sx={{ backgroundColor: '#141C24', color: 'white', padding: '50px 0', textAlign: 'center' }} id="contact">
+    <Box sx={{ backgroundColor: '#141C24', color: 'white', padding: '10px 0', textAlign: 'center'}} id="contact">
       <Typography variant="h4" gutterBottom>
       Entre em contato
       </Typography>
@@ -30,6 +30,9 @@ const ContactSection = () => {
           <WhatsApp />
         </IconButton>
       </Box>
+      <Typography variant="body2" sx={{ marginTop: '15px', marginBottom: '5px' }}>
+        &copy; {new Date().getFullYear()} Louise de Paula. Todos os direitos reservados.
+      </Typography>
     </Box>
   );
 };

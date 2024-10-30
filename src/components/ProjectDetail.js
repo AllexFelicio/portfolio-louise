@@ -1,31 +1,70 @@
 import React, { useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { Container, Typography, Box, Button, Dialog, DialogContent } from '@mui/material';
+import { Container, Typography, Box, Button, Dialog, DialogContent, Grid } from '@mui/material';
 import CardMedia from '@mui/material/CardMedia';
 import Carousel from 'react-material-ui-carousel';
+import { House, Person, LocationOn} from '@mui/icons-material';
 
 const projectDetails = {
   projectA: {
     title: 'Barn House',
     description: 'Detalhes da Barn House',
+    size: '665',
+    architect:'FELIPE DINIZ',
+    location:'FAZENDA BOA VISTA - SP',
+    completionDate:'',
     images: [
-      'https://grantec.com.br/wp-content/uploads/2021/10/casa-alto-padrao-01.jpg',
-      'https://grantec.com.br/wp-content/uploads/2021/10/casa-alto-padrao-01.jpg',
-      'https://grantec.com.br/wp-content/uploads/2021/10/casa-alto-padrao-01.jpg', // Adicione mais imagens conforme necessário
+      'https://lampur.com.br/wp-content/smush-webp/2020/05/BARN-HOUSES-LAMPUR-engenharia-62-2.jpg.webp',
+      'https://lampur.com.br/wp-content/smush-webp/2020/05/IMG_6932-1536x755.jpg.webp',
+      'https://lampur.com.br/wp-content/smush-webp/2020/05/PHOTO-2022-06-29-15-22-40-2-1536x864.jpg.webp',
+      'https://lampur.com.br/wp-content/smush-webp/2020/05/PHOTO-2022-06-29-15-22-41-1536x864.jpg.webp', // Adicione mais imagens conforme necessário
+      'https://fazendaboavista.jhsf.com.br/public/uploads/811e22553bbbd8121b1d636168d237e3.webp',
     ],
   },
   projectB: {
-    title: 'Victor e Bridla',
-    description: 'Detailed description of Project B.',
+    title: 'Garden House',
+    description: 'Detalhes da garden house.',
+    size: '818',
+    architect:'FELIPE DINIZ',
+    location:'FAZENDA BOA VISTA - SP',
+    completionDate:'',
+    images: [
+      'https://lampur.com.br/wp-content/smush-webp/2021/02/IMG_2056.jpg.webp',
+    ],
+  },
+  projectC: {
+    title: 'Residencia',
+    description: 'Detalhes residencia.',
+    size: '665',
+    architect:'',
+    location:'Fazenda Da Grama - SP',
+    completionDate:'',
     images: [
       'https://www.bidese.com.br/storage/app/uploads/public/61e/96d/76b/61e96d76ba8fe211400673.png',
       'https://www.bidese.com.br/storage/app/uploads/public/61e/96d/76b/61e96d76ba8fe211400673.png',
       'https://www.bidese.com.br/storage/app/uploads/public/61e/96d/76b/61e96d76ba8fe211400673.png',
     ],
   },
-  projectC: {
-    title: 'Jorge Yamanaski',
-    description: 'Detailed description of Project C.',
+  projectD: {
+    title: 'Victor e Bridla',
+    description: 'Detalhes',
+    size: '665',
+    architect:'',
+    location:'Aldeia Da Serra - SP',
+    completionDate:'',
+    images: [
+      'https://www.bidese.com.br/storage/app/uploads/public/61e/96d/76b/61e96d76ba8fe211400673.png',
+      'https://www.bidese.com.br/storage/app/uploads/public/61e/96d/76b/61e96d76ba8fe211400673.png',
+      'https://www.bidese.com.br/storage/app/uploads/public/61e/96d/76b/61e96d76ba8fe211400673.png',
+    ],
+  },
+  projectE: {
+    title: 'Reforma Jorge Y.',
+    description: 'Detalhes',
+    size: '665',
+    architect:'',
+    location:'FAZENDA BOA VISTA - SP',
+    completionDate:'',
     images: [
       'https://bidese.com.br/storage/app/media/uploaded-files/gap01.png',
       'https://bidese.com.br/storage/app/media/uploaded-files/gap01.png',
@@ -64,6 +103,31 @@ const ProjectDetail = () => {
         Voltar
       </Button>
       <Typography variant="h4" sx={{ color: 'white' }}>{project.title}</Typography>
+      <Grid container spacing={2}>
+        <Grid item xs={12} sm={6} sx={{ display: 'flex', alignItems: 'center',color: 'white' }}>
+          <House sx={{ marginRight: '10px', color: '#9B7424' }} />
+          <Typography variant="h6">Metragem:</Typography>
+          <Typography variant="h6" sx={{ marginLeft: '10px' }}>{project.size} m²</Typography>
+        </Grid>
+        
+        <Grid item xs={12} sm={6} sx={{ display: 'flex', alignItems: 'center', color: 'white' }}>
+          <Person sx={{ marginRight: '10px', color: '#9B7424' }} />
+          <Typography variant="h6">Arquiteto:</Typography>
+          <Typography variant="body1" sx={{ marginLeft: '10px' }}>{project.architect}</Typography>
+        </Grid>
+        
+        <Grid item xs={12} sm={6} sx={{ display: 'flex', alignItems: 'center', color: 'white' }}>
+          <LocationOn sx={{ marginRight: '10px', color: '#9B7424' }} />
+          <Typography variant="h6">Local:</Typography>
+          <Typography variant="body1" sx={{ marginLeft: '10px' }}>{project.location}</Typography>
+        </Grid>
+        
+        {/* <Grid item xs={12} sm={6} sx={{ display: 'flex', alignItems: 'center', color: 'white' }}>
+          <DateRange sx={{ marginRight: '10px', color: '#9B7424' }} />
+          <Typography variant="h6">Data de Conclusão:</Typography>
+          <Typography variant="body1" sx={{ marginLeft: '10px' }}>{project.completionDate}</Typography>
+        </Grid> */}
+      </Grid>
       <Typography variant="body1" sx={{ margin: '20px 0', color: 'white' }}>
         {project.description}
       </Typography>

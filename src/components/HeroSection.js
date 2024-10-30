@@ -65,7 +65,7 @@ const HeroSection = () => {
           Engenheira Civil
         </Typography>
         <Typography variant="body1" align="justify">
-          Sou uma engenheira civil profissional com mais de 6 anos de experiência em projetar e gerenciar projetos de construção.
+          Sou uma engenheira civil profissional com mais de 4 anos de experiência em projetar e gerenciar projetos de construção.
           Minha paixão está em fornecer soluções de alta qualidade que atendam às necessidades dos meus clientes.
         </Typography>
         <Box sx={{ display: 'flex', gap: '20px', marginTop: '20px' }}>

@@ -22,7 +22,7 @@ const AboutMeSection = () => {
     Minha paixão está em fornecer soluções de alta qualidade que atendam às necessidades dos meus clientes.
   </Typography> */}
   <Typography variant="body1" gutterBottom align="center">
-           Formada pela Faculdade de Engenharia de Sorocaba - FACENS, atualmente estou cursando uma pós-graduação em Patologia. 
+           Formada pela Faculdade de Engenharia de Sorocaba (FACENS), pós-graduanda em Patologia e Manutenção das Construções. 
            Tenho experiência no gerenciamento e execução de projetos de construção de casas de alto padrão, 
            o que me permite oferecer soluções técnicas de qualidade e adequadas às necessidades dos meus clientes. 
            Com um olhar atento aos detalhes e uma abordagem focada na excelência, 

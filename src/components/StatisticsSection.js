@@ -3,7 +3,7 @@ import { Box, Grid, Typography } from '@mui/material';
 import { styled } from '@mui/system';
 
 const StatisticsBackground = styled(Box)(() => ({
-  backgroundColor: '#111',
+  backgroundColor: '#141C24',
   color: 'white',
   padding: '50px 0',
 }));

@@ -5,7 +5,7 @@ import { Instagram, WhatsApp } from '@mui/icons-material';
 
 const ContactSection = () => {
   return (
-    <Box sx={{ backgroundColor: '#111', color: 'white', padding: '50px 0', textAlign: 'center' }} id="contact">
+    <Box sx={{ backgroundColor: '#141C24', color: 'white', padding: '50px 0', textAlign: 'center' }} id="contact">
       <Typography variant="h4" gutterBottom>
       Entre em contato
       </Typography>
@@ -15,7 +15,7 @@ const ContactSection = () => {
       <Box>
         <IconButton
           component="a"
-          href="https://www.instagram.com/yourprofile" // Substitua pelo seu link do Instagram
+          href="https://www.instagram.com/ll.engenharia_/" // Substitua pelo seu link do Instagram
           target="_blank"
           sx={{ color: 'white' }}
         >
@@ -23,7 +23,7 @@ const ContactSection = () => {
         </IconButton>
         <IconButton
           component="a"
-          href="https://wa.me/yourphonenumber" // Substitua pelo seu link do WhatsApp
+          href="https://wa.me/5515981394994" // Substitua pelo seu link do WhatsApp
           target="_blank"
           sx={{ color: 'white', marginLeft: '20px' }}
         >

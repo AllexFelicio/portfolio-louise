@@ -59,7 +59,7 @@ const ProjectDetail = () => {
       <Button 
         onClick={() => navigate(-1)} // Volta para a tela anterior
         variant="contained"
-        sx={{ backgroundColor: '#FF5722', marginBottom: '20px' }}
+        sx={{ backgroundColor: '#9B7424', marginBottom: '20px' }}
       >
         Voltar
       </Button>
@@ -75,7 +75,7 @@ const ProjectDetail = () => {
         sx={{ padding: '20px' }}
         navButtonsProps={{
           style: {
-            backgroundColor: '#FF5722',
+            backgroundColor: '#9B7424',
             color: 'white',
           },
         }}

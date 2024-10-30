@@ -10,7 +10,7 @@ const theme = createTheme({
           margin: 0,
           padding: 0,
           boxSizing: 'border-box',
-          backgroundColor: '#111',
+          backgroundColor: '#141C24',
           backgroundSize: 'cover', // Ajuste o tamanho da imagem
           backgroundPosition: 'center', // Centraliza a imagem
         },

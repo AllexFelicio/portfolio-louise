@@ -12,27 +12,27 @@ const services = [
   {
     title: 'Gerenciamento de Obras',
     description: 'Expertise in building design and construction.',
-    icon: <EngineeringIcon sx={{ fontSize: 60, color: '#FF5722' }} />,
+    icon: <EngineeringIcon sx={{ fontSize: 60, color: '#9B7424' }} />,
   },
   {
     title: 'Inspeção Predial',
     description: 'Efficient management of construction projects.',
-    icon: <BuildIcon sx={{ fontSize: 60, color: '#FF5722' }} />,
+    icon: <BuildIcon sx={{ fontSize: 60, color: '#9B7424' }} />,
   },
   {
     title: 'Laudos',
     description: 'Analysis and design of structural components.',
-    icon: <AssessmentIcon sx={{ fontSize: 60, color: '#FF5722' }} />,
+    icon: <AssessmentIcon sx={{ fontSize: 60, color: '#9B7424' }} />,
   },
   {
     title: 'Vistorias',
     description: 'Providing expert advice for your projects.',
-    icon: <SearchIcon sx={{ fontSize: 60, color: '#FF5722' }} />,
+    icon: <SearchIcon sx={{ fontSize: 60, color: '#9B7424' }} />,
   },
   {
     title: 'Checklist',
     description: 'Upgrading existing structures.',
-    icon: <CheckCircleIcon sx={{ fontSize: 60, color: '#FF5722' }} />,
+    icon: <CheckCircleIcon sx={{ fontSize: 60, color: '#9B7424' }} />,
   },
 ];
 
@@ -40,7 +40,7 @@ const ServicesSection = () => {
   const isSmallScreen = useMediaQuery((theme) => theme.breakpoints.down('sm')); // Detecta tela pequena
 
   return (
-    <Box sx={{ backgroundColor: '#222', color: 'white', padding: '50px 20px' }} id="services">
+    <Box sx={{ backgroundColor: '#1A2530', color: 'white', padding: '50px 20px' }} id="services">
       <Typography variant="h4" align="center" gutterBottom>
         Serviços
       </Typography>
@@ -52,7 +52,7 @@ const ServicesSection = () => {
         sx={{ padding: '20px' }}
         navButtonsProps={{
           style: {
-            backgroundColor: '#FF5722',
+            backgroundColor: '#9B7424',
             color: 'white',
           },
         }}
@@ -76,7 +76,7 @@ const ServicesSection = () => {
                   flexDirection: 'column', 
                   alignItems: 'center', 
                   textAlign: 'center',
-                  backgroundColor: '#111', // Cor de fundo dos cards
+                  backgroundColor: '#141C24', // Cor de fundo dos cards
                   color: 'white', // Cor do texto
                 }}
               >

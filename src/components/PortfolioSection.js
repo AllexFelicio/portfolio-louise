@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'; // Adicione esta linha
 import useMediaQuery from '@mui/material/useMediaQuery';
 
 const PortfolioBackground = styled(Box)(() => ({
-  backgroundColor: '#222',
+  backgroundColor: '#1A2530',
   padding: '50px 0',
   color: 'white',
 }));
@@ -34,7 +34,7 @@ const PortfolioSection = () => {
           sx={{ padding: '20px' }}
           navButtonsProps={{
             style: {
-              backgroundColor: '#FF5722',
+              backgroundColor: '#9B7424',
               color: 'white',
             },
           }}
@@ -44,7 +44,7 @@ const PortfolioSection = () => {
             <Box key={index} display="flex" justifyContent="space-between">
               {projects.slice(index * (isSmallScreen ? 1 : 3), index * (isSmallScreen ? 1 : 3) + (isSmallScreen ? 1 : 3)).map((project, i) => (
                 <Link key={i} to={`/projects/${project.id}`} style={{ textDecoration: 'none', color: 'inherit' }}> {/* Link para a página de detalhes */}
-                  <Card sx={{ backgroundColor: '#111', margin: '10px', display: 'flex', flexDirection: 'column', flex: 1 }}>
+                  <Card sx={{ backgroundColor: '#141C24', margin: '10px', display: 'flex', flexDirection: 'column', flex: 1 }}>
                     <CardMedia
                       component="img"
                       height="200"
@@ -61,6 +61,15 @@ const PortfolioSection = () => {
             </Box>
           ))}
         </Carousel>
+        {/* Linha com gradiente */}
+        <Box
+          sx={{
+            height: '2px',
+            background: 'linear-gradient(to right, #1A2530, #9B7424)',
+            margin: '20px auto 0',
+            width: '80%',
+          }}
+        />
       </Container>
     </PortfolioBackground>
   );

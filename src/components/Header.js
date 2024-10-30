@@ -34,7 +34,8 @@ const Header = () => {
       color="transparent"
       sx={{
         boxShadow: 'none',
-        backgroundColor: 'rgba(0, 0, 0, 0.7)',
+        backgroundColor: '#10151B',
+        borderRadius: 2,
       }}
     >
       <Toolbar sx={{ justifyContent: 'space-between' }}>
@@ -60,10 +61,10 @@ const Header = () => {
           <Button
             variant="contained"
             sx={{
-              backgroundColor: '#FF5722',
+              backgroundColor: '#9B7424',
               color: 'white',
               '&:hover': {
-                backgroundColor: '#E64A19',
+                backgroundColor: '#7B5C1C',
               },
             }}
             onClick={() => scrollToSection('contact')}
@@ -80,7 +81,7 @@ const Header = () => {
         onClose={toggleDrawer(false)}
         sx={{
           '& .MuiDrawer-paper': {
-            backgroundColor: '#111',
+            backgroundColor: '#141C24',
             color: 'white',
           },
         }}

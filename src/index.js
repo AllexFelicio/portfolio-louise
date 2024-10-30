@@ -10,7 +10,7 @@ const darkTheme = createTheme({
       main: '#FF6F00',  // Laranja para os botões e destaques
     },
     background: {
-      default: '#121212',  // Fundo escuro
+      default: '#141C24',  // Fundo escuro
       paper: '#1E1E1E',   // Cor para cards e seções
     },
     text: {

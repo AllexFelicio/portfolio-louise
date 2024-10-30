@@ -4,7 +4,7 @@ import { styled } from '@mui/system';
 import heroImage from '../images/img1.jpg'; // Adicione a imagem apropriada
 
 const HeroBackground = styled(Box)(({ theme }) => ({
-  backgroundColor: '#141C24',
+  background: 'linear-gradient(to top, rgba(20, 28, 36, 0.9), rgba(155, 116, 36, 0.1))', // Degradê sutil 
   paddingTop: '64px',
   height: '100vh',
   display: 'flex',

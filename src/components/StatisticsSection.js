@@ -16,6 +16,15 @@ const stats = [
 
 const StatisticsSection = () => {
   return (
+    <>
+    <Box
+          sx={{
+            height: '2px',
+            background: 'linear-gradient(to left, #141C24, #9B7424)',
+            marginTop: '0px',
+            width: '100%',
+          }}
+        />
     <StatisticsBackground id="statistics">
       <Grid container justifyContent="center" spacing={4}>
         {stats.map((stat, index) => (
@@ -28,6 +37,7 @@ const StatisticsSection = () => {
         ))}
       </Grid>
     </StatisticsBackground>
+    </>
   );
 };
 

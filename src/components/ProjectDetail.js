@@ -35,9 +35,9 @@ const projectDetails = {
     completionDate:'',
     images: [
       'https://lampur.com.br/wp-content/smush-webp/2021/02/IMG_2056.jpg.webp',
-      'http://www.felipediniz.com.br/images/imoveis/img-20181029-wa001126e12c0bed4be9f75ed7b71fd0465ad5.jpg',
-      'http://www.felipediniz.com.br/images/imoveis/img-20181029-wa00128f16a4030fedf7792e6e7aad5a677880.jpg',
-      'http://www.felipediniz.com.br/images/imoveis/garden-img-20181207-wa0011db3abc3a13993605c3a7e7fba9168e9a.jpg',
+      'https://i.ibb.co/mGGFpKv/garden-img-20181207-wa0011db3abc3a13993605c3a7e7fba9168e9a.jpg',
+      'https://i.ibb.co/4dFtN06/img-20181029-wa00128f16a4030fedf7792e6e7aad5a677880.jpg',
+      'https://i.ibb.co/rFy08v9/img-20181029-wa001126e12c0bed4be9f75ed7b71fd0465ad5.jpg',
     ],
   },
   projectC: {
@@ -48,9 +48,10 @@ const projectDetails = {
     location:'Fazenda Da Grama - SP',
     completionDate:'',
     images: [
-      'https://www.bidese.com.br/storage/app/uploads/public/61e/96d/76b/61e96d76ba8fe211400673.png',
-      'https://www.bidese.com.br/storage/app/uploads/public/61e/96d/76b/61e96d76ba8fe211400673.png',
-      'https://www.bidese.com.br/storage/app/uploads/public/61e/96d/76b/61e96d76ba8fe211400673.png',
+      'https://i.ibb.co/7W1vszv/Whats-App-Image-2024-11-12-at-13-33-08-2.jpg',
+      'https://i.ibb.co/MSkMDfn/Whats-App-Image-2024-11-12-at-13-33-08-1.jpg',
+      'https://i.ibb.co/jDh4MZq/Whats-App-Image-2024-11-12-at-13-33-08.jpg',
+      'https://i.ibb.co/1Z8msvs/Whats-App-Image-2024-11-12-at-13-33-09.jpg',
     ],
   },
   projectD: {

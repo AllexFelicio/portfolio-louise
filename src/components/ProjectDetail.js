@@ -8,7 +8,7 @@ import { House, Person, LocationOn} from '@mui/icons-material';
 const projectDetails = {
   projectA: {
     title: 'Barn House',
-    description: 'Detalhes da Barn House',
+    description: 'Inspiradas nas casas de campo inglesas, com seus celeiros e rusticidade, fazendo o uso de materiais como tijolinho, pedra e madeira, as Barn Houses assumem contornos únicos proporcionados por grandes vãos e janelas. Pude participar da execução do projeto da 1ª fase com 16 Barns, 2ª fase com 9 e 1 Barn House individidual personalizada, totalizando acompanhamento da construção de 26 Barn House.',
     size: '665',
     architect:'FELIPE DINIZ',
     location:'FAZENDA BOA VISTA - SP',
@@ -18,18 +18,26 @@ const projectDetails = {
       'https://lampur.com.br/wp-content/smush-webp/2020/05/IMG_6932-1536x755.jpg.webp',
       'https://lampur.com.br/wp-content/smush-webp/2020/05/PHOTO-2022-06-29-15-22-40-2-1536x864.jpg.webp',
       'https://lampur.com.br/wp-content/smush-webp/2020/05/PHOTO-2022-06-29-15-22-41-1536x864.jpg.webp', // Adicione mais imagens conforme necessário
-      'https://fazendaboavista.jhsf.com.br/public/uploads/811e22553bbbd8121b1d636168d237e3.webp',
+      'https://i.ibb.co/9Z3t5w4/Whats-App-Image-2024-11-12-at-11-45-00.jpg',
+      'https://i.ibb.co/D8CJQwS/Whats-App-Image-2024-11-12-at-11-45-00-1.jpg',
+      'https://i.ibb.co/rGZByNN/Whats-App-Image-2024-11-12-at-11-45-00-2.jpg',
+      'https://i.ibb.co/QFG2NKw/Whats-App-Image-2024-11-12-at-11-45-00-3.jpg',
+      'https://i.ibb.co/xLj7CSr/Whats-App-Image-2024-11-12-at-11-45-00-4.jpg',
+      'https://i.ibb.co/F6ZnTvh/Whats-App-Image-2024-11-12-at-11-45-00-5.jpg',
     ],
   },
   projectB: {
     title: 'Garden House',
-    description: 'Detalhes da garden house.',
+    description: 'Inspiradas nas casas de campo da Europa e rodeadas pela natureza, as Garden House foram construídas com materiais predominantes a madeira e pedras. Pude participar da execução do projeto de 17 Garden House.',
     size: '818',
     architect:'FELIPE DINIZ',
     location:'FAZENDA BOA VISTA - SP',
     completionDate:'',
     images: [
       'https://lampur.com.br/wp-content/smush-webp/2021/02/IMG_2056.jpg.webp',
+      'http://www.felipediniz.com.br/images/imoveis/img-20181029-wa001126e12c0bed4be9f75ed7b71fd0465ad5.jpg',
+      'http://www.felipediniz.com.br/images/imoveis/img-20181029-wa00128f16a4030fedf7792e6e7aad5a677880.jpg',
+      'http://www.felipediniz.com.br/images/imoveis/garden-img-20181207-wa0011db3abc3a13993605c3a7e7fba9168e9a.jpg',
     ],
   },
   projectC: {

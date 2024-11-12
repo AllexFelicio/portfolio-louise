@@ -8,7 +8,7 @@ import { House, Person, LocationOn} from '@mui/icons-material';
 const projectDetails = {
   projectA: {
     title: 'Barn House',
-    description: 'Inspiradas nas casas de campo inglesas, com seus celeiros e rusticidade, fazendo o uso de materiais como tijolinho, pedra e madeira, as Barn Houses assumem contornos únicos proporcionados por grandes vãos e janelas. Pude participar da execução do projeto da 1ª fase com 16 Barns, 2ª fase com 9 e 1 Barn House individidual personalizada, totalizando acompanhamento da construção de 26 Barn House.',
+    description: 'Inspiradas nas casas de campo inglesas, com seus celeiros e rusticidade, fazendo o uso de materiais como tijolinho, pedra e madeira, as Barn Houses assumem contornos únicos proporcionados por grandes vãos e janelas. Pude participar da execução do projeto da 1ª fase com 16 Barns, 2ª fase com 9 e 1 Barn House individual personalizada, totalizando acompanhamento da construção de 26 Barn House.',
     size: '665',
     architect:'FELIPE DINIZ',
     location:'FAZENDA BOA VISTA - SP',

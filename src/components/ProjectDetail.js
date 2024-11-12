@@ -52,6 +52,8 @@ const projectDetails = {
       'https://i.ibb.co/MSkMDfn/Whats-App-Image-2024-11-12-at-13-33-08-1.jpg',
       'https://i.ibb.co/jDh4MZq/Whats-App-Image-2024-11-12-at-13-33-08.jpg',
       'https://i.ibb.co/1Z8msvs/Whats-App-Image-2024-11-12-at-13-33-09.jpg',
+      'https://i.ibb.co/hY3wGTG/Whats-App-Image-2024-11-12-at-13-33-07.jpg',
+      'https://i.ibb.co/ZTbr5BW/Whats-App-Image-2024-11-12-at-13-33-08-3.jpg',
     ],
   },
   projectD: {

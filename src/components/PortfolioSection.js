@@ -14,8 +14,8 @@ const PortfolioBackground = styled(Box)(() => ({
 const projects = [
   { id: 'projectA', title: 'Barn House', image: 'https://lampur.com.br/wp-content/smush-webp/2020/05/BARN-HOUSES-LAMPUR-engenharia-62-2.jpg.webp', description: 'Fazenda Boa Vista' },
   { id: 'projectB', title: 'Garden House', image: 'https://lampur.com.br/wp-content/smush-webp/2021/02/IMG_2056.jpg.webp', description: 'Fazenda Boa Vista' },
-  { id: 'projectC', title: 'Residencia A & M ', image: 'https://i.ibb.co/7W1vszv/Whats-App-Image-2024-11-12-at-13-33-08-2.jpg', description: 'Fazenda Da Grama' },
-  { id: 'projectD', title: 'Victor e Bridla', image: 'https://www.bidese.com.br/storage/app/uploads/public/61e/96d/76b/61e96d76ba8fe211400673.png', description: 'Aldeia Da Serra' },
+  { id: 'projectC', title: 'Residência A & M ', image: 'https://i.ibb.co/7t0Smxn/27.jpg', description: 'Fazenda Da Grama' },
+  { id: 'projectD', title: 'Residência V & B', image: 'https://i.ibb.co/nwTvPN2/Whats-App-Image-2024-11-12-at-14-34-28.jpg', description: 'Aldeia Da Serra' },
   { id: 'projectE', title: 'Reforma Jorge Y.', image: 'https://bidese.com.br/storage/app/media/uploaded-files/gap01.png', description: 'Fazenda Boa Vista' },
 ];
 

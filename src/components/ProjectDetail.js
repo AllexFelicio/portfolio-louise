@@ -41,7 +41,7 @@ const projectDetails = {
     ],
   },
   projectC: {
-    title: 'Residencia',
+    title: 'Residencia A & M',
     description: 'Detalhes residencia.',
     size: '665',
     architect:'',

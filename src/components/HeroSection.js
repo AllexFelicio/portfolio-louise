@@ -1,5 +1,5 @@
 import React from 'react';
-import { Typography, Button, Box } from '@mui/material';
+import { Typography, Box } from '@mui/material';
 import { styled } from '@mui/system';
 import heroImage from '../images/img1.jpg'; // Adicione a imagem apropriada
 
@@ -83,7 +83,6 @@ const HeroSection = () => {
         >
           Baixar CV
         </Button> */}
-
         </Box>
       </HeroContent>
     </HeroBackground>

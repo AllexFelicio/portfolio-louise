@@ -16,7 +16,7 @@ const projects = [
   { id: 'projectB', title: 'Garden House', image: 'https://lampur.com.br/wp-content/smush-webp/2021/02/IMG_2056.jpg.webp', description: 'Fazenda Boa Vista' },
   { id: 'projectC', title: 'Residência A & M ', image: 'https://i.ibb.co/7t0Smxn/27.jpg', description: 'Fazenda Da Grama' },
   { id: 'projectD', title: 'Residência V & B', image: 'https://i.ibb.co/nwTvPN2/Whats-App-Image-2024-11-12-at-14-34-28.jpg', description: 'Aldeia Da Serra' },
-  { id: 'projectE', title: 'Reforma Jorge Y.', image: 'https://bidese.com.br/storage/app/media/uploaded-files/gap01.png', description: 'Fazenda Boa Vista' },
+  { id: 'projectE', title: 'Reforma Casa Golf Course', image: 'https://i.ibb.co/gtYXVpG/fachada.jpg', description: 'Fazenda Boa Vista' },
 ];
 
 const PortfolioSection = () => {

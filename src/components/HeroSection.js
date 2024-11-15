@@ -59,6 +59,7 @@ const HeroSection = () => {
             background: 'linear-gradient(to left, #141C24, #9B7424)',
             marginTop: '0px',
             width: '80%',
+            marginBottom: '2px'
           }}
         />
         <Typography variant="h5" gutterBottom>
@@ -69,9 +70,20 @@ const HeroSection = () => {
           Minha paixão está em fornecer soluções de alta qualidade que atendam às necessidades dos meus clientes.
         </Typography>
         <Box sx={{ display: 'flex', gap: '20px', marginTop: '20px' }}>
-          <Button variant="contained" sx={{ backgroundColor: '#9B7424', color: 'white','&:hover': {backgroundColor: '#7B5C1C',},  }}>
-            Baixar CV
-          </Button>
+        {/* <Button
+          variant="contained"
+          sx={{
+            backgroundColor: '#9B7424',
+            color: 'white',
+            '&:hover': { backgroundColor: '#7B5C1C' },
+          }}
+          component="a"
+          href="/Curriculo_Louise_Eng Civil" // Caminho correto
+          download="curriculo-louise-de-paula.pdf" // Nome do arquivo para download
+        >
+          Baixar CV
+        </Button> */}
+
         </Box>
       </HeroContent>
     </HeroBackground>

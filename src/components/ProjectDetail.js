@@ -17,7 +17,7 @@ const projectDetails = {
       'https://lampur.com.br/wp-content/smush-webp/2020/05/BARN-HOUSES-LAMPUR-engenharia-62-2.jpg.webp',
       'https://lampur.com.br/wp-content/smush-webp/2020/05/IMG_6932-1536x755.jpg.webp',
       'https://lampur.com.br/wp-content/smush-webp/2020/05/PHOTO-2022-06-29-15-22-40-2-1536x864.jpg.webp',
-      'https://lampur.com.br/wp-content/smush-webp/2020/05/PHOTO-2022-06-29-15-22-41-1536x864.jpg.webp', // Adicione mais imagens conforme necessário
+      'https://lampur.com.br/wp-content/smush-webp/2020/05/PHOTO-2022-06-29-15-22-41-1536x864.jpg.webp', 
       'https://i.ibb.co/9Z3t5w4/Whats-App-Image-2024-11-12-at-11-45-00.jpg',
       'https://i.ibb.co/D8CJQwS/Whats-App-Image-2024-11-12-at-11-45-00-1.jpg',
       'https://i.ibb.co/rGZByNN/Whats-App-Image-2024-11-12-at-11-45-00-2.jpg',
@@ -42,8 +42,8 @@ const projectDetails = {
   },
   projectC: {
     title: 'Residência A & M',
-    description: 'Detalhes residencia.',
-    size: '665',
+    description: 'A execução desse projeto foi realizada em 18 meses. É uma casa com 6 suítes, vasta área gourmet dentro de um condomínio de tirar o fôlego com uma linda paisagem e diversas atividades. As esquadrias de alumínio na cor azul embelezam ainda mais o cenário.',
+    size: '942,65',
     architect:'',
     location:'Fazenda Da Grama - SP',
     completionDate:'',
@@ -62,8 +62,8 @@ const projectDetails = {
   },
   projectD: {
     title: 'Residência V & B',
-    description: 'Detalhes',
-    size: '665',
+    description: 'Projeto voltado à uma família de um casal com dois filhos. A casa está em execução e é composta pelas suítes, vasta área gourmet, salão de jogos e o que chama mais atenção: um balanço de aproximadamente 6 metros.',
+    size: '551,51',
     architect:'',
     location:'Aldeia Da Serra - SP',
     completionDate:'',
@@ -75,16 +75,21 @@ const projectDetails = {
     ],
   },
   projectE: {
-    title: 'Reforma Jorge Y.',
-    description: 'Detalhes',
-    size: '665',
-    architect:'',
+    title: 'Reforma Casa Golf Course',
+    description: 'Participei da reforma dessa casa de veraneio localizada no interior de São Paulo. Realizamos  manutenções nas pinturas, elétrica e hidráulica. Além da troca do piso e revestimento do deck da piscina, piso interno, trocas das iluminações e a pedido do cliente retiramos a borda infinita da piscina, deixando-a com borda reta. A manutenção residencial é essencial para garantir a segurança, conforto e durabilidade do imóvel.',
+    size: '1.127,45',
+    architect:'Studio Arthur Casas',
     location:'FAZENDA BOA VISTA - SP',
     completionDate:'',
     images: [
-      'https://bidese.com.br/storage/app/media/uploaded-files/gap01.png',
-      'https://bidese.com.br/storage/app/media/uploaded-files/gap01.png',
-      'https://bidese.com.br/storage/app/media/uploaded-files/gap01.png',
+      'https://i.ibb.co/gtYXVpG/fachada.jpg',
+      'https://i.ibb.co/YpP524V/1.jpg',
+      'https://i.ibb.co/34hSWgS/2.jpg',
+      'https://i.ibb.co/KwgBctF/3.jpg',
+      'https://i.ibb.co/zZRkwC8/4.jpg',
+      'https://i.ibb.co/1rjKBL4/5.jpg',
+      'https://i.ibb.co/cJWKW2p/6.jpg',
+      'https://i.ibb.co/6YtmHQh/7.jpg',
     ],
   },
 };
@@ -112,7 +117,7 @@ const ProjectDetail = () => {
   return (
     <Container sx={{ marginTop: 4 }}>
       <Button 
-        onClick={() => navigate(-1)} // Volta para a tela anterior
+        onClick={() => navigate(-1)} 
         variant="contained"
         sx={{ backgroundColor: '#9B7424', marginBottom: '20px' }}
       >
@@ -126,11 +131,15 @@ const ProjectDetail = () => {
           <Typography variant="h6" sx={{ marginLeft: '10px' }}>{project.size} m²</Typography>
         </Grid>
         
-        <Grid item xs={12} sm={6} sx={{ display: 'flex', alignItems: 'center', color: 'white' }}>
-          <Person sx={{ marginRight: '10px', color: '#9B7424' }} />
-          <Typography variant="h6">Arquiteto:</Typography>
-          <Typography variant="body1" sx={{ marginLeft: '10px' }}>{project.architect}</Typography>
-        </Grid>
+        {project.architect && project.architect.trim() !== "" && (
+          <Grid item xs={12} sm={6} sx={{ display: 'flex', alignItems: 'center', color: 'white' }}>
+            <Person sx={{ marginRight: '10px', color: '#9B7424' }} />
+            <Typography variant="h6">Arquiteto:</Typography>
+            <Typography variant="body1" sx={{ marginLeft: '10px' }}>
+              {project.architect}
+            </Typography>
+          </Grid>
+        )}
         
         <Grid item xs={12} sm={6} sx={{ display: 'flex', alignItems: 'center', color: 'white' }}>
           <LocationOn sx={{ marginRight: '10px', color: '#9B7424' }} />

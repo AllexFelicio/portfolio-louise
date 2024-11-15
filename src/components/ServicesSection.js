@@ -21,7 +21,7 @@ const services = [
   },
   {
     title: 'Laudos',
-    description: 'laudos são utilizados para fundamentar decisões sobre manutenção, reformas ou intervenções em edificações, além de serem essenciais para processos legais e contratuais.',
+    description: 'Laudos são utilizados para fundamentar decisões sobre manutenção, reformas ou intervenções em edificações, além de serem essenciais para processos legais e contratuais.',
     icon: <AssessmentIcon sx={{ fontSize: 60, color: '#9B7424' }} />,
   },
   {

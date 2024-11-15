@@ -59,7 +59,7 @@ const HeroSection = () => {
             background: 'linear-gradient(to left, #141C24, #9B7424)',
             marginTop: '0px',
             width: '80%',
-            marginBottom: '2px'
+            marginBottom: '2px',
           }}
         />
         <Typography variant="h5" gutterBottom>

@@ -43,7 +43,7 @@ const projectDetails = {
   projectC: {
     title: 'Residência A & M',
     description: 'A execução desse projeto foi realizada em 18 meses. É uma casa com 6 suítes, vasta área gourmet dentro de um condomínio de tirar o fôlego com uma linda paisagem e diversas atividades. As esquadrias de alumínio na cor azul embelezam ainda mais o cenário.',
-    size: '942,65',
+    size: '942.65',
     architect:'',
     location:'Fazenda Da Grama - SP',
     completionDate:'',
